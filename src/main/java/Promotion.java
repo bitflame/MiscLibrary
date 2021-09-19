@@ -13,7 +13,7 @@ public class Promotion {
         }
         return codeIdx == codeList.length ? 1 : 0;
     }
-
+//todo find out what is KMP
     public static boolean hasOrder(String[] shoppingCart, int idx, String[] order) {
         // loop through the codeList to check if the fruits are in order
         for (String s : order) {
